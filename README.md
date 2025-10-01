@@ -27,3 +27,15 @@ Põks – punane ja rõõmus mull, kes armastab hüpata ja naerda.
 Helk – sinine mull, rahulik ja peegeldav, kes naudib järve rahu ja valguse ilu.
 
 Säde – kuldne mull, särav ja optimistlik, kes armastab maailma imesid avastada.
+
+⚔️ Konflikt
+
+Keset maailma on Portaal, mis võib viia teise imelisse dimensiooni.
+
+Mullid jagunevad kaheks:
+
+Portaali-uskujad – usuvad, et see viib rõõmu, seikluse ja vabaduseni.
+
+Portaali-kardjad – usuvad, et see on ohtlik ja võib hävitada maailma, mida nad tunnevad.
+
+See vaidlus muudab mullide elu põnevaks ja tekitab valiku- ja usaldusmängu.
