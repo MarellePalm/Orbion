@@ -38,4 +38,17 @@ Portaali-uskujad – usuvad, et see viib rõõmu, seikluse ja vabaduseni.
 
 Portaali-kardjad – usuvad, et see on ohtlik ja võib hävitada maailma, mida nad tunnevad.
 
+
+
+Liikmed: 
+Marelle Palm TA24
+Kristo Lember
+Taaniel Tiidussalu TAK23
+Reelika Pihl TA25
+Urve Nõgu TA25
+
+Esimene päev 01.10.2025
+
+Idee välja mõtlemine, üles kirjutamine.
+
 See vaidlus muudab mullide elu põnevaks ja tekitab valiku- ja usaldusmängu.
