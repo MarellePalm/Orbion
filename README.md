@@ -59,29 +59,29 @@ Idee välja mõtlemine, üles kirjutamine.
 1.Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas? <br>
 2.Üks pehme oskus, mida õppisin ja endas arendasin. <br>
 3. Üks tehniline oskus, mida õppisin ja endas arendasin. <br>
- 
-Vastab Marelle: <br>
-1. 
-2. 
-3. 
+ <br>
+<b>Vastab Marelle:</b> <br>
+1.  <br>
+2.  <br>
+3.  <br>
 
-Vastab Kristo: <br>
-1. 
-2. 
-3. 
+<b>Vastab Kristo: </b> <br>
+1.  <br>
+2. <br>
+3. <br>
 
-Vastab Taaniel: <br>
-1. 
-2. 
-3. 
+<b>Vastab Taaniel: </b> <br>
+1.  <br>
+2. <br>
+3. <br>
 
-Vastab Reelika: <br>
-1. 
-2. 
-3. 
+<b>Vastab Reelika: </b> <br>
+1. <br>
+2. <br>
+3. <br>
 
-Vastab Urve: <br>
-1. 
-2. 
-3. 
+<b>Vastab Urve: </b> <br>
+1. <br>
+2. <br>
+3. <br>
 
