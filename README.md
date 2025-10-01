@@ -50,7 +50,7 @@ Urve Nõgu TA25 <br>
 
 <h1>Esimene päev 01.10.2025</h1>
 
-Idee välja mõtlemine, üles kirjutamine.
+Idee välja mõtlemine, üles kirjutamine. 
 
 <h1>Teine päev 02.10.2025</h1>
 <h1>Kolmas päev 03.10.2025</h1>
@@ -66,12 +66,12 @@ Idee välja mõtlemine, üles kirjutamine.
 3.  <br>
 
 <b>Vastab Kristo: </b> <br>
-1.  <br>
+1. <br>
 2. <br>
 3. <br>
 
 <b>Vastab Taaniel: </b> <br>
-1.  <br>
+1. <br>
 2. <br>
 3. <br>
 
