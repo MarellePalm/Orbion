@@ -10,7 +10,13 @@ Urve Nõgu TA25 <br>
 <h1>Esimene päev 01.10.2025</h1>
 
 Idee välja mõtlemine, üles kirjutamine. Rollide jagamine, kes mida tegema hakkab. <br>
-![1000020587](https://github.com/user-attachments/assets/1c07b071-55ec-4662-b230-0954a70a3509)
+![1000020587](https://github.com/user-attachments/assets/1c07b071-55ec-4662-b230-0954a70a3509) <br>
+Tegime figma, TA25 alustas koodimisega. <br> 
+Marelle - sisu mõtlemine, kirjutamine,  abistab koodi kirjutamisega, readme täitmine. <br>
+Kristo - figma,abistab koodi kirjutamisega <br>
+Taaniel - kaart, abistabkoodi kirjutamisega <br>
+Reelika- uudiste, tegelaste lehed,koodikirjutamine, disain <br>
+Urve- avaleht, nav bar, koodi kirjutamine disain. <br>
 
 <h1>Teine päev 02.10.2025</h1>
 <h1>Kolmas päev 03.10.2025</h1>
