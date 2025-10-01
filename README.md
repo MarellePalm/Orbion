@@ -40,14 +40,14 @@ Portaali-kardjad – usuvad, et see on ohtlik ja võib hävitada maailma, mida n
 
 
 
-Liikmed: 
-Marelle Palm TA24
-Kristo Lember
-Taaniel Tiidussalu TAK23
-Reelika Pihl TA25
-Urve Nõgu TA25
+Liikmed: <br>
+Marelle Palm TA24 <br>
+Kristo Lember <br>
+Taaniel Tiidussalu TAK23 <br>
+Reelika Pihl TA25 <br>
+Urve Nõgu TA25 <br>
 
-Esimene päev 01.10.2025
+<h1>Esimene päev 01.10.2025</h1>
 
 Idee välja mõtlemine, üles kirjutamine.
 
