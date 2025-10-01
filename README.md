@@ -1,3 +1,29 @@
 # Orbion
 
-Maailm kus elavad mullid.
+🌍 Maailm – Orbion
+
+Orbion on elav ja rõõmus maailm, täis:
+
+pehmeid, rohelisi mägesid, mille tipud kumavad päikesevalguses,
+
+siniseid ja sädelevaid järvi, kus mullid saavad peegelduda ja lustida,
+
+avaraid rohelisi tasandikke, kus mullid saavad hüpata ja mängida.
+
+Kõik maailmas on helge, sõbralik ja täis rõõmu – isegi kivised tipud ja järve kaldad kutsuvad avastama.
+
+🌱 Maailma tekkimine
+
+Miljonite aastate eest oli Orbion üks suur tühjus – hall ja igav.
+
+Ühel päikesepaistelisel hetkel ilmus Suure Rõõmu Säde, maagiline valgus, mis lõi mäed ja järved, ning andis maailmale elu.
+
+Valgus andis mull-olenditele kuju ja energia – nii sündisid esimesed mullid, kes mängisid, sõbrunesid ja uurisid maailma.
+
+👤 Tegelased (mullid)
+
+Põks – punane ja rõõmus mull, kes armastab hüpata ja naerda.
+
+Helk – sinine mull, rahulik ja peegeldav, kes naudib järve rahu ja valguse ilu.
+
+Säde – kuldne mull, särav ja optimistlik, kes armastab maailma imesid avastada.
