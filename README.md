@@ -36,7 +36,7 @@ Mullid jagunevad kaheks:
 
 Portaali-uskujad – usuvad, et see viib rõõmu, seikluse ja vabaduseni.
 
-Portaali-kardjad – usuvad, et see on ohtlik ja võib hävitada maailma, mida nad tunnevad.
+Portaali-kardjad – usuvad, et see on ohtlik ja võib hävitada maailma, mida nad tunnevad. <br>
 See vaidlus muudab mullide elu põnevaks ja tekitab valiku- ja usaldusmängu.
 
 
@@ -51,4 +51,37 @@ Urve Nõgu TA25 <br>
 <h1>Esimene päev 01.10.2025</h1>
 
 Idee välja mõtlemine, üles kirjutamine.
+
+<h1>Teine päev 02.10.2025</h1>
+<h1>Kolmas päev 03.10.2025</h1>
+
+<h1>Küsimused</h1>
+1.Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas? <br>
+2.Üks pehme oskus, mida õppisin ja endas arendasin. <br>
+3. Üks tehniline oskus, mida õppisin ja endas arendasin. <br>
+ 
+Vastab Marelle: <br>
+1. 
+2. 
+3. 
+
+Vastab Kristo: <br>
+1. 
+2. 
+3. 
+
+Vastab Taaniel: <br>
+1. 
+2. 
+3. 
+
+Vastab Reelika: <br>
+1. 
+2. 
+3. 
+
+Vastab Urve: <br>
+1. 
+2. 
+3. 
 
