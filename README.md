@@ -37,6 +37,7 @@ Mullid jagunevad kaheks:
 Portaali-uskujad – usuvad, et see viib rõõmu, seikluse ja vabaduseni.
 
 Portaali-kardjad – usuvad, et see on ohtlik ja võib hävitada maailma, mida nad tunnevad.
+See vaidlus muudab mullide elu põnevaks ja tekitab valiku- ja usaldusmängu.
 
 
 
@@ -51,4 +52,3 @@ Urve Nõgu TA25 <br>
 
 Idee välja mõtlemine, üles kirjutamine.
 
-See vaidlus muudab mullide elu põnevaks ja tekitab valiku- ja usaldusmängu.
