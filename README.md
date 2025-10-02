@@ -22,7 +22,9 @@ Urve- avaleht, nav bar, koodi kirjutamine disain. <br>
 
 Igal liige teeb oma osa. Vanemad aitavad nooremaid, kui neil küsimusi või abi vaja. Figma täiendamine. Interaktiivse elemendi välja mõtlemine, sisu leidmine ja teostamine. <br>
 
-![1000020618](https://github.com/user-attachments/assets/1a719ac8-1629-411e-aa4b-01b054d2993f)
+![1000020618](https://github.com/user-attachments/assets/1a719ac8-1629-411e-aa4b-01b054d2993f) <br>
+
+Branchid said pushitud ja kõik kokku pullitud. Asi töötab, disaini parandusi tuleb veel teha.
 
 
 <h1>Kolmas päev 03.10.2025</h1>
