@@ -1,0 +1,53 @@
+.background_image {
+    background-image: url(/Orbion/images/orbion-world-action-1200x1080.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: justify;
+    font-size: large;
+    font-family: Georgia, serif;
+}
+.charactersone{
+    color: black;
+    background-color: rgba(217, 217, 217, 0.5);
+    padding: 50px 100px 50px;
+    display: inline-block;
+    border-radius: 10%;
+    column-count: 2;
+    font-family: Georgia, serif;
+}
+.characterstwo{
+    color: black;
+    background-color: rgba(217, 217, 217, 0.5);
+    padding: 50px 100px 50px;
+    display: inline-block;
+    border-radius: 10%;
+    column-count: 2;
+    font-family: Georgia, serif;
+}
+.charactersthree{
+    color: black;
+    background-color: rgba(217, 217, 217, 0.5);
+    padding: 50px 100px 50px;
+    display: inline-block;
+    border-radius: 10%;
+    column-count: 2;
+    font-family: Georgia, serif;
+}
+.nimi{
+    font-size: 32px;
+    font-weight: bold;
+}
+.pealkiri{
+    font-weight: bold;
+}
