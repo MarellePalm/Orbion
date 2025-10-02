@@ -58,6 +58,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: rgba(217, 217, 217, 0.5);
+  padding-top: 20px;
 }
 .bullet {
 display: inline-block;
@@ -110,6 +111,7 @@ background-color: rgba(217, 217, 217, 0.5);
   border-radius: 8px;
   padding: 10px 28px;
   font-size: 1em;
+  font-weight: bold;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   cursor: pointer;
   transition: background 0.2s;
