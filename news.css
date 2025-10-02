@@ -1,5 +1,5 @@
 .background_image {
-    background-image: url(/Orbion/images/orbion-world-action-1200x1080.png);
+    background-image: url('/images/orbionworld.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -13,18 +13,19 @@
     gap: 20px;
     padding-left: 250px;
     padding-right: 250px;
+    padding-top: 20px;
     text-align: justify;
     font-size: large;
     font-family: Georgia, serif;
 }
 .extra{
-    background-color: rgba(217, 217, 217, 0.5);
+    background-color: rgba(217, 217, 217, 0.7);
     padding: 50px 100px 50px;
     border-radius: 10%;
 }
 .news1{
     color: black;
-    background-color: rgba(217, 217, 217, 0.5);
+    background-color: rgba(217, 217, 217, 0.7);
     padding: 50px 100px 50px;
     display: inline-block;
     border-radius: 10%;
@@ -34,4 +35,8 @@
     text-align: center;
     font-weight: bold;
     font-family: Georgia, serif;
+}
+.bubbleAdd{
+    width: 250px;
+    height: auto;
 }
