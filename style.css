@@ -1,5 +1,35 @@
 body {
   margin: 0;
-  background: #000;
+  background-image: url('/images/orbionworld.png');
+  background-size: cover; 
   overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.header-right {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 0.5);
+}
+.bullet {
+display: inline-block;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+background-color: rgba(217, 217, 217, 0.5);
+}
+.tekst {
+display: inline-block;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+background-color: rgba(217, 217, 217, 0.5);
 }
