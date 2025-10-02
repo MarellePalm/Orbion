@@ -84,10 +84,25 @@
     border-radius: 10%;
     padding: 50px 100px 50px;
 }
+.newContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 20px;
+}
 .bubbleAdd{
     width: 250px;
-    height: auto;
+    height: auto; 
+    animation: circleBubble 6s infinite linear;
+}
+@keyframes circleBubble {
+  0%   { transform: rotate(0deg) translateX(50px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(50px) rotate(-360deg); }
 }
 p{
     line-height: 1.6;
+}
+.bubblePic{
+   width: 250px;
+  height: auto;
 }

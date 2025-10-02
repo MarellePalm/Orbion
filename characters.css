@@ -97,3 +97,56 @@
 .pealkiri{
     font-weight: bold;
 }
+.upDown{
+  position: relative;
+  animation: floatBubble 4s infinite ease-in-out;
+}
+@keyframes floatBubble {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.movingLR{
+  position: relative;
+  animation: moveBubble 5s infinite alternate ease-in-out;
+}
+@keyframes moveBubble {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+.fade{
+   animation: fade 3s infinite ease-in-out, spin 10s infinite linear;
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+@keyframes fade {
+  0%, 100% { opacity: 1; }
+  40% { opacity: 0.3; }
+}
+
+.pulse{
+  animation: pulseBubble 2s infinite ease-in-out;
+}
+@keyframes pulseBubble {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
