@@ -16,7 +16,6 @@
             overflow-x: hidden;
         }
 
-        /* Hero Section with Background */
         .hero-section { 
             position: relative;
             width: 100%;
@@ -30,7 +29,6 @@
             justify-content: center;
         }
 
-        /* Overlay for better text readability */
         .hero-overlay {
             position: absolute;
             top: 0;
@@ -41,7 +39,6 @@
             z-index: 1;
         }
 
-        /* Navigation */
         nav {
             position: absolute;
             top: 0;
@@ -71,7 +68,6 @@
             background: rgba(255, 255, 255, 0.3);
         }
 
-        /* Logo/Title */
         .logo {
             position: absolute;
             top: 40px;
@@ -87,7 +83,6 @@
             letter-spacing: 4px;
         }
 
-        /* 3D Planet Container */
         #planet-container {
             position: absolute;
             top: 50%;
@@ -152,7 +147,6 @@
             border: 1px solid #555;
         }
 
-        /* Floating Bubbles */
         .bubble {
             position: absolute;
             border-radius: 50%;
@@ -224,7 +218,6 @@
 
 
 
-        /* Responsive */
         @media (max-width: 768px) {
             nav {
                 padding: 15px 20px;
@@ -289,12 +282,10 @@
     <div class="hero-section">
         <div class="hero-overlay"></div>
         
-        <!-- Logo -->
         <div class="logo">
             <h1>ORBION</h1>
         </div>
 
-        <!-- Navigation -->
         <nav>
             <a href="index.html">Avelehr</a>
             <a href="#planet.html">Kaart</a>
@@ -302,7 +293,6 @@
             <a href="characters.html">Tegelased</a>
         </nav>
 
-        <!-- 3D Planet Container -->
         <div id="planet-container">
             <div id="info-overlay">
                 <h3>🏰 Orbion World Map</h3>
@@ -313,7 +303,6 @@
             </div>
         </div>
 
-        <!-- Planet Legend -->
         <div class="planet-legend">
             <div class="legend-item">
                 <div class="legend-color" style="background: #d4af37;"></div>
@@ -333,7 +322,6 @@
             </div>
         </div>
 
-        <!-- Floating Bubbles -->
         <div class="bubble"></div>
         <div class="bubble"></div>
         <div class="bubble"></div>
@@ -342,7 +330,7 @@
         <div class="bubble"></div>
     </div>
 
-    <!-- Three.js Script -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script>
         let scene, camera, renderer, planet, clouds, markers = [];
