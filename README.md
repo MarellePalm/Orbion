@@ -1,4 +1,13 @@
 # 🌍Orbion
+Meie projekt on Orbion – värviküllane ja elav maailm, kus mull-olendid avastavad, mängivad ja õpivad üheskoos. Tegelasteks on Põks, kes toob energiat ja naeru, Helk, kes pakub tarkust ja tasakaalu, ning Säde, kes innustab uusi avastusi. Maailma südames asuv Portaal ning salapärane VarjuMull toovad aga kaasa pinget ja küsimusi – kas ees ootab oht või hoopis uus võimalus? See maailm ühendab rõõmu, seiklused ja sügavama mõtte valguse ja varju tasakaalust.  <br>
+
+Kasutatud tehnoloogiad: <br>
+
+HTML – struktuur ja sisu  <br>
+
+CSS – kujundus ja visuaalid  <br>
+
+JavaScript – dünaamiline käitumine ja interaktsioon  <br>
 
 Liikmed: <br>
 Marelle Palm TA24 <br>
@@ -29,33 +38,33 @@ Branchid said pushitud ja kõik kokku pullitud. Asi töötab, disaini parandusi 
 
 <h1>Kolmas päev 03.10.2025</h1>
 
+Täiustasime projekti. disaini parandused, lisasime veel ühe mängu. 
+
 <h1>Küsimused</h1>
 1.Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas? <br>
-2.Üks pehme oskus, mida õppisin ja endas arendasin. <br>
-3. Üks tehniline oskus, mida õppisin ja endas arendasin. <br>
+2.Mida õppisin ja endas arendasin? <br>
  <br>
 <b>Vastab Marelle:</b> <br>
 1.  <br>
 2.  <br>
-3.  <br>
+
 
 <b>Vastab Kristo: </b> <br>
 1. <br>
 2. <br>
-3. <br>
+
 
 <b>Vastab Taaniel: </b> <br>
 1. <br>
 2. <br>
-3. <br>
+
 
 <b>Vastab Reelika: </b> <br>
 1. <br>
 2. <br>
-3. <br>
+
 
 <b>Vastab Urve: </b> <br>
 1. <br>
 2. <br>
-3. <br>
 
