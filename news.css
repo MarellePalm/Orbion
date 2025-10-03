@@ -14,6 +14,7 @@
   z-index: 1000;
   align-items: center;
   padding: 15px 40px;
+  position: relative;
 }
 .site-header a {
   font-size: 15px;
@@ -160,11 +161,14 @@ p{
     line-height: 1.7 !important;
     color: #222 !important;
   }
-  .bubblePic, .bubbleAdd {
+  .bubbleAdd {
     width: 100% !important;
     height: auto !important;
     display: block !important;
     margin: 0 auto !important;
+  }
+  .bubblePic{
+    display: none;
   }
   .site-header {
     width: 100vw !important;
