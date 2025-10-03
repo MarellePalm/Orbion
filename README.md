@@ -10,6 +10,9 @@ CSS – kujundus ja visuaalid  <br>
 
 JavaScript – dünaamiline käitumine ja interaktsioon  <br>
 
+Figma- https://www.figma.com/site/MzhTwfqYuoTsfkR6Wco9KE/Orbion?node-id=0-1&p=f&t=ql6yZQymZ2dIulfd-0 <br>
+Live - <br>
+
 Liikmed: <br>
 Marelle Palm TA24 <br>
 Kristo Lember <br>
@@ -47,24 +50,24 @@ Täiustasime projekti. disaini parandused, lisasime veel ühe mängu.
  <br>
 <b>Vastab Marelle:</b> <br>
 1.  Olin rahul oma ülesandega meeskonnas.<br>
-2. Õppisin juhendamist,lehte live panemist. Arendasin meeskonatöö oskusi. <br>
+2. Õppisin uuesti  juhendamist,lehte live panemist. Arendasin meeskonatöö oskusi. <br>
 <br>
 <b>Vastab Kristo: </b> <br>
-1. <br>
-2. <br>
+1.Olin rahul enda ülesandega aga ma oleks soovinud koodi kirjutada. <br>
+2.Õppisin kuidas figmat uuesti kasutada. <br>
 
 <br>
 <b>Vastab Taaniel: </b> <br>
-1. <br>
-2. <br>
+1. <br> Olin väga rahul enda ülesandega. Nautisin arutlemist tiimikaaslastega ning oli tore.
+2. <br> Õppisin enda väljendamist ja teiste aitamist. Oskan nüüd ennast paremini väljendada ja probleemidest arutleda.
 
 <br>
 <b>Vastab Reelika: </b> <br>
-1. <br>
-2. <br>
+1. Olen rahul oma rolliga, vastavalt oma võimete piiril. <br>
+2. Õppisin katsetama ja nägema erinevaid variante ja võimalusi, mida teha saab. <br>
 
 <br>
 <b>Vastab Urve: </b> <br>
-1. <br>
-2. <br>
+1. Ma olen väga rahul oma tiimi ja enda ülesannetega tiimis <br>
+2. Õppisin nii htmli kui ka css käsklusi, lisaks kuidas töötada tiimis erinevate kodulehe ülesannete kallal ja kuidas seda kokku panna.<br>
 
