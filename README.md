@@ -1,5 +1,6 @@
 # 🌍Orbion
 Meie projekt on Orbion – värviküllane ja elav maailm, kus mull-olendid avastavad, mängivad ja õpivad üheskoos. Tegelasteks on Põks, kes toob energiat ja naeru, Helk, kes pakub tarkust ja tasakaalu, ning Säde, kes innustab uusi avastusi. Maailma südames asuv Portaal ning salapärane VarjuMull toovad aga kaasa pinget ja küsimusi – kas ees ootab oht või hoopis uus võimalus? See maailm ühendab rõõmu, seiklused ja sügavama mõtte valguse ja varju tasakaalust.  <br>
+<img width="auto" height="200" alt="ORBION" src="https://github.com/user-attachments/assets/88bd5310-f1b5-4182-9df7-7723134983aa" /> <br>
 
 Kasutatud tehnoloogiad: <br>
 
@@ -45,25 +46,24 @@ Täiustasime projekti. disaini parandused, lisasime veel ühe mängu.
 2.Mida õppisin ja endas arendasin? <br>
  <br>
 <b>Vastab Marelle:</b> <br>
-1.  <br>
-2.  <br>
-
-
+1.  Olin rahul oma ülesandega meeskonnas.<br>
+2. Õppisin juhendamist,lehte live panemist. Arendasin meeskonatöö oskusi. <br>
+<br>
 <b>Vastab Kristo: </b> <br>
 1. <br>
 2. <br>
 
-
+<br>
 <b>Vastab Taaniel: </b> <br>
 1. <br>
 2. <br>
 
-
+<br>
 <b>Vastab Reelika: </b> <br>
 1. <br>
 2. <br>
 
-
+<br>
 <b>Vastab Urve: </b> <br>
 1. <br>
 2. <br>
