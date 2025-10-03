@@ -11,7 +11,7 @@ CSS – kujundus ja visuaalid  <br>
 JavaScript – dünaamiline käitumine ja interaktsioon  <br>
 
 Figma- https://www.figma.com/site/MzhTwfqYuoTsfkR6Wco9KE/Orbion?node-id=0-1&p=f&t=ql6yZQymZ2dIulfd-0 <br>
-Live - <br>
+Live - https://orbion-xi.vercel.app/index.html <br>
 
 Liikmed: <br>
 Marelle Palm TA24 <br>
