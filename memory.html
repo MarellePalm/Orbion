@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -183,7 +184,7 @@
             justify-content: center;
             font-size: 35px;
             box-shadow: inset 0 -10px 20px rgba(0, 0, 0, 0.2),
-                        0 5px 15px rgba(255, 255, 255, 0.3);
+                0 5px 15px rgba(255, 255, 255, 0.3);
             border: 3px solid rgba(255, 255, 255, 0.4);
         }
 
@@ -240,9 +241,11 @@
             0% {
                 transform: translate(-50%, -50%) scale(0);
             }
+
             50% {
                 transform: translate(-50%, -50%) scale(1.1);
             }
+
             100% {
                 transform: translate(-50%, -50%) scale(1);
             }
@@ -303,12 +306,16 @@
         }
 
         @keyframes floatAround {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: translate(0, 0);
             }
+
             33% {
                 transform: translate(20px, -30px);
             }
+
             66% {
                 transform: translate(-15px, -20px);
             }
@@ -377,6 +384,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Navigation -->
     <nav>
@@ -398,7 +406,7 @@
     <div class="game-wrapper">
         <div class="game-container">
             <h1>🫧 Mullide Mälu Mäng 🫧</h1>
-            
+
             <div class="game-info">
                 <div class="info-item">
                     <span>Käigud:</span> <span id="moves">0</span>
@@ -449,7 +457,7 @@
         function initGame() {
             const gameBoard = document.getElementById('gameBoard');
             gameBoard.innerHTML = '';
-            
+
             // Create pairs and shuffle
             cards = [...bubbles, ...bubbles]
                 .sort(() => Math.random() - 0.5)
@@ -482,7 +490,7 @@
             moves = 0;
             timer = 0;
             canFlip = true;
-            
+
             updateStats();
             startTimer();
         }
@@ -501,7 +509,7 @@
 
         function flipCard(index) {
             if (!canFlip) return;
-            
+
             const cardElement = document.querySelector(`[data-index="${index}"]`);
             const card = cards[index];
 
@@ -563,7 +571,7 @@
                 timer++;
                 const minutes = Math.floor(timer / 60);
                 const seconds = timer % 60;
-                document.getElementById('time').textContent = 
+                document.getElementById('time').textContent =
                     `${minutes}:${seconds.toString().padStart(2, '0')}`;
             }, 1000);
         }
@@ -573,7 +581,7 @@
             const minutes = Math.floor(timer / 60);
             const seconds = timer % 60;
             const timeString = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-            
+
             document.getElementById('winStats').innerHTML = `
                 Sa leidsid kõik mullid!<br>
                 <strong>Käigud:</strong> ${moves}<br>
@@ -592,4 +600,5 @@
         initGame();
     </script>
 </body>
-</html> 
+
+</html>

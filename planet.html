@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +18,7 @@
         }
 
         /* Hero Section with Background */
-        .hero-section { 
+        .hero-section {
             position: relative;
             width: 100%;
             height: 100vh;
@@ -134,7 +135,7 @@
             margin: 0 0 8px 0;
             font-size: 20px;
             color: #d4af37;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
         }
 
         #info-overlay p {
@@ -230,12 +231,16 @@
         }
 
         @keyframes float {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: translateY(0px) translateX(0px);
             }
+
             33% {
                 transform: translateY(-20px) translateX(10px);
             }
+
             66% {
                 transform: translateY(-10px) translateX(-10px);
             }
@@ -302,10 +307,11 @@
         }
     </style>
 </head>
+
 <body>
     <div class="hero-section">
         <div class="hero-overlay"></div>
-        
+
         <!-- Logo -->
         <div class="logo">
             <h1>ORBION</h1>
@@ -317,6 +323,8 @@
             <a href="planet.html">Kaart</a>
             <a href="news.html">Uudised</a>
             <a href="characters.html">Tegelased</a>
+            <a href="memory.html">Mälumäng</a>
+
         </nav>
 
         <!-- 3D Planet Container -->
@@ -324,9 +332,9 @@
             <div id="info-overlay">
                 <h3>🏰 Orbioni Kaart</h3>
                 <p><strong>Juhtimine:</strong><br>
-                • Pööramiseks lohista<br>
-                • Keri suumimiseks<br>
-                • Avasta maailma</p>
+                    • Pööramiseks lohista<br>
+                    • Keri suumimiseks<br>
+                    • Avasta maailma</p>
             </div>
         </div>
 
@@ -370,7 +378,7 @@
         function init() {
             const container = document.getElementById('planet-container');
             scene = new THREE.Scene();
-            
+
             camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
             camera.position.z = 3.5;
 
@@ -382,13 +390,13 @@
 
             // Create planet
             const geometry = new THREE.SphereGeometry(1.5, 64, 64);
-            
+
             // Create custom texture
             const canvas = document.createElement('canvas');
             canvas.width = 2048;
             canvas.height = 1024;
             const ctx = canvas.getContext('2d');
-            
+
             // Ocean
             const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
             gradient.addColorStop(0, '#1a4d7a');
@@ -396,7 +404,7 @@
             gradient.addColorStop(1, '#1a4d7a');
             ctx.fillStyle = gradient;
             ctx.fillRect(0, 0, canvas.width, canvas.height);
-            
+
             // Draw continents
             ctx.fillStyle = '#3a5f3a';
             drawLandmass(ctx, 300, 300, 400, 350);
@@ -404,7 +412,7 @@
             drawLandmass(ctx, 800, 200, 300, 250);
             drawLandmass(ctx, 1600, 600, 350, 280);
             drawLandmass(ctx, 100, 700, 280, 200);
-            
+
             // Add forests
             ctx.fillStyle = '#2d4f2d';
             for (let i = 0; i < 40; i++) {
@@ -412,14 +420,14 @@
                 const y = Math.random() * canvas.height;
                 drawForest(ctx, x, y, 30 + Math.random() * 50);
             }
-            
+
             // Add rivers
             ctx.strokeStyle = '#4a90e2';
             ctx.lineWidth = 3;
             for (let i = 0; i < 25; i++) {
                 drawRiver(ctx);
             }
-            
+
             // Add mountains
             ctx.fillStyle = '#8b6f47';
             for (let i = 0; i < 30; i++) {
@@ -429,12 +437,12 @@
             }
 
             const texture = new THREE.CanvasTexture(canvas);
-            const material = new THREE.MeshPhongMaterial({ 
+            const material = new THREE.MeshPhongMaterial({
                 map: texture,
                 shininess: 15,
                 specular: new THREE.Color(0x333333)
             });
-            
+
             planet = new THREE.Mesh(geometry, material);
             planet.rotation.x = 0.3;
             scene.add(planet);
@@ -445,7 +453,7 @@
             cloudCanvas.width = 1024;
             cloudCanvas.height = 512;
             const cloudCtx = cloudCanvas.getContext('2d');
-            
+
             for (let i = 0; i < 100; i++) {
                 const x = Math.random() * cloudCanvas.width;
                 const y = Math.random() * cloudCanvas.height;
@@ -456,7 +464,7 @@
                 cloudCtx.fillStyle = cloudGradient;
                 cloudCtx.fillRect(x - radius, y - radius, radius * 2, radius * 2);
             }
-            
+
             const cloudTexture = new THREE.CanvasTexture(cloudCanvas);
             const cloudMaterial = new THREE.MeshPhongMaterial({
                 map: cloudTexture,
@@ -510,10 +518,10 @@
             const startX = Math.random() * ctx.canvas.width;
             const startY = Math.random() * ctx.canvas.height;
             const segments = 10 + Math.floor(Math.random() * 15);
-            
+
             ctx.beginPath();
             ctx.moveTo(startX, startY);
-            
+
             let x = startX, y = startY;
             for (let i = 0; i < segments; i++) {
                 x += (Math.random() - 0.5) * 60;
@@ -561,22 +569,22 @@
 
                 // Create a simple but visible castle structure
                 const castle = new THREE.Group();
-                
+
                 // Stone material
-                const stoneMaterial = new THREE.MeshLambertMaterial({ 
+                const stoneMaterial = new THREE.MeshLambertMaterial({
                     color: 0x9b8b7a,
                     emissive: 0x2a2520,
                     emissiveIntensity: 0.1
                 });
-                
+
                 // Main tower base (rectangular)
                 const baseGeo = new THREE.BoxGeometry(0.04, 0.06, 0.04);
                 const base = new THREE.Mesh(baseGeo, stoneMaterial);
                 base.position.y = 0.03;
                 castle.add(base);
-                
+
                 // Roof
-                const roofMaterial = new THREE.MeshLambertMaterial({ 
+                const roofMaterial = new THREE.MeshLambertMaterial({
                     color: 0x654321,
                     emissive: 0x1a0f0a,
                     emissiveIntensity: 0.1
@@ -586,33 +594,33 @@
                 roof.position.y = 0.08;
                 roof.rotation.y = Math.PI / 4;
                 castle.add(roof);
-                
+
                 // Two side towers
                 const sideTowerGeo = new THREE.BoxGeometry(0.02, 0.04, 0.02);
-                
+
                 const tower1 = new THREE.Mesh(sideTowerGeo, stoneMaterial);
                 tower1.position.set(-0.025, 0.02, 0);
                 castle.add(tower1);
-                
+
                 const tower2 = new THREE.Mesh(sideTowerGeo, stoneMaterial);
                 tower2.position.set(0.025, 0.02, 0);
                 castle.add(tower2);
-                
+
                 // Small roofs on side towers
                 const smallRoofGeo = new THREE.ConeGeometry(0.015, 0.02, 4);
-                
+
                 const roof1 = new THREE.Mesh(smallRoofGeo, roofMaterial);
                 roof1.position.set(-0.025, 0.05, 0);
                 roof1.rotation.y = Math.PI / 4;
                 castle.add(roof1);
-                
+
                 const roof2 = new THREE.Mesh(smallRoofGeo, roofMaterial);
                 roof2.position.set(0.025, 0.05, 0);
                 roof2.rotation.y = Math.PI / 4;
                 castle.add(roof2);
-                
+
                 // Small flag
-                const flagMaterial = new THREE.MeshLambertMaterial({ 
+                const flagMaterial = new THREE.MeshLambertMaterial({
                     color: 0xd4af37,
                     side: THREE.DoubleSide,
                     emissive: 0x3a2f1a,
@@ -622,16 +630,16 @@
                 const flag = new THREE.Mesh(flagGeo, flagMaterial);
                 flag.position.set(0.006, 0.1, 0);
                 castle.add(flag);
-                
+
                 // Position castle on planet
                 castle.position.set(x, y, z);
                 castle.lookAt(0, 0, 0);
                 castle.rotateX(Math.PI / 2);
-                
+
                 // Slightly lift castles above surface to prevent z-fighting
                 const liftDirection = new THREE.Vector3(x, y, z).normalize();
                 castle.position.add(liftDirection.multiplyScalar(0.002));
-                
+
                 planet.add(castle);
                 markers.push(castle);
             });
@@ -640,14 +648,14 @@
         function addStars() {
             const starGeometry = new THREE.BufferGeometry();
             const starVertices = [];
-            
+
             for (let i = 0; i < 1000; i++) {
                 const x = (Math.random() - 0.5) * 2000;
                 const y = (Math.random() - 0.5) * 2000;
                 const z = (Math.random() - 0.5) * 2000;
                 starVertices.push(x, y, z);
             }
-            
+
             starGeometry.setAttribute('position', new THREE.Float32BufferAttribute(starVertices, 3));
             const starMaterial = new THREE.PointsMaterial({ color: 0xffffff, size: 2 });
             const stars = new THREE.Points(starGeometry, starMaterial);
@@ -663,10 +671,10 @@
             if (isDragging) {
                 const deltaX = e.clientX - previousMousePosition.x;
                 const deltaY = e.clientY - previousMousePosition.y;
-                
+
                 rotationVelocity.y = deltaX * 0.005;
                 rotationVelocity.x = deltaY * 0.005;
-                
+
                 previousMousePosition = { x: e.clientX, y: e.clientY };
             }
         }
@@ -683,7 +691,7 @@
 
         function animate() {
             requestAnimationFrame(animate);
-            
+
             if (!isDragging) {
                 planet.rotation.y += rotationVelocity.y;
                 planet.rotation.x += rotationVelocity.x * 0.1;
@@ -693,9 +701,9 @@
                 planet.rotation.y += rotationVelocity.y;
                 planet.rotation.x += rotationVelocity.x;
             }
-            
+
             clouds.rotation.y += 0.0003;
-            
+
             renderer.render(scene, camera);
         }
 
@@ -703,4 +711,5 @@
         animate();
     </script>
 </body>
+
 </html>
