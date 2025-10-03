@@ -1,5 +1,5 @@
 .background_image {
-    background-image: url('/images/orbionworld.png');
+    background-image: url('images/orbionworld.png');
 background-size: cover;
   background-position: center;
   background-attachment: fixed;
