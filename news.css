@@ -1,8 +1,10 @@
 .background_image {
     background-image: url('/images/orbionworld.png');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  font-family: Georgia, serif;
     margin: 0;
 }
 .site-header {
@@ -16,6 +18,7 @@
   padding: 15px 40px;
   position: relative;
 }
+
 .site-header a {
   font-size: 15px;
   color: #fff;
@@ -23,12 +26,13 @@
   font-weight: 600;
   transition: all 0.3s ease;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  padding: 6px 12 px;
+  padding: 6px 12px;
   border-radius: 4px;
   position: relative;
 }
+
 .site-header a::after {
-  content:"";
+  content: "";
   position: absolute;
   bottom: -4px;
   left: 50%;
@@ -38,12 +42,22 @@
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
+
 .site-header a:hover::after {
   width: 50%;
 }
+
 .site-header a:hover {
   color: #d4af37;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.main-layout {
+  display: flex;
+  min-height: calc(100vh - 60px);
+  padding: 40px 20px;
+  gap: 40px;
+  align-items: flex-start;
 }
 .container{
     display: flex;

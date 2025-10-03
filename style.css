@@ -203,6 +203,16 @@ body {
 .dialogue{
   padding: 20px;
 }
+.dialogueContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 20px;
+}
+.dialoguePic{
+  width: 250px;
+  height: auto;
+}
 .choice-button{
   padding: 12px 24px;       
   font-size: 18px;          
